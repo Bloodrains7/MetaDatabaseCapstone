@@ -15,7 +15,6 @@ BEGIN
     WHERE b.bookingDate = booking_date
       AND b.takeNumber = table_number;
 
-    -- Return the booking status
     SELECT table_status AS BookingStatus;
 END //
 
